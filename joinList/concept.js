@@ -15,6 +15,10 @@ function joinList(list) {
 
   var res = '';
 
+  if (list.length === 0) {
+    return '';
+  }
+
   if (list.length > 0) {
 
     res = list[0];
